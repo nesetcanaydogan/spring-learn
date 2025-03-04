@@ -11,9 +11,12 @@ public class App02HelloWorldSpring {
 
         // Configure the things that we want to Spring to manage
         // HelloWorldConfiguration Class - @Configuration
-        System.out.println(context.getBean("name"));
-        System.out.println(context.getBean("number"));
+        // name - @Bean
 
         // Retrieving Beans managed by Spring
+        System.out.println(context.getBean("name"));
+        System.out.println(context.getBean("age"));
+        System.out.println(context.getBean("person"));
+        System.out.println(context.getBean("address"));
     }
 }
