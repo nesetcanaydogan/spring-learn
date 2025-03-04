@@ -1,11 +1,9 @@
 package com.canaydogan.springlearn;
 
 import com.canaydogan.springlearn.game.GameRunner;
-import com.canaydogan.springlearn.game.MarioGame;
 import com.canaydogan.springlearn.game.PacmanGame;
-import com.canaydogan.springlearn.game.SuperContraGame;
 
-public class AppGamingBasicJava {
+public class App01GamingBasicJava {
     public static void main(String[] args) {
         // var game = new MarioGame();
         // var game = new SuperContraGame();
